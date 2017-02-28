@@ -1,2 +1,6 @@
 github coalang-soft jvisit
 github coalang-soft coalib-java
+dir-create ./jvisitfx/standalone-src
+dir-copy ./jvisitfx/src ./jvisitfx/standalone-src
+dir-copy ./jvisit/src ./jvisitfx/standalone-src
+dir-copy ./coalib-java/src ./jvisitfx/standalone-src
